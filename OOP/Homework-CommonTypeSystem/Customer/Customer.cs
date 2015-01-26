@@ -1,0 +1,129 @@
+﻿namespace Customer
+{
+    using System;
+    using System.Collections;
+    using System.Collections.Generic;
+
+    public class Customer : ICloneable, IComparable<Customer>
+    {
+        public Customer(string firstName, string midleName, string lastName, int id, string permanentAddress = null, string email = null, string mobilePhone = null)
+        {
+            this.FirstName = firstName;
+            this.MidleName = midleName;
+            this.LastName = lastName;
+            this.Id = id;
+            this.PermanentAddress = permanentAddress;
+            this.Email = email;
+            this.MobilePhone = mobilePhone;
+            this.Payments = new List<Payment>();
+        }
+
+        public string FirstName { get; set; }
+        
+        public string MidleName { get; set; }
+        
+        public string LastName { get; set; }
+        
+        public int Id { get; set; }
+        
+        public string PermanentAddress { get; set; }
+        
+        public string MobilePhone { get; set; }
+        
+        public string Email { get; set; }
+        
+        public IList<Payment> Payments { get; private set; }
+        
+        public CustomerType CustomerType { get; private set; }
+
+        public static bool operator ==(Customer firstCustomer, Customer secondCustomer)
+        {
+            return firstCustomer.Equals(secondCustomer);
+        }
+
+        public static bool operator !=(Customer firstCustomer, Customer secondCustomer)
+        {
+            return firstCustomer.Equals(secondCustomer);
+        }
+
+        public void AddPayment(Payment payment)
+        {
+            this.Payments.Add(payment);
+            var paymetsCount = this.Payments.Count;
+            if (paymetsCount <= 1)
+            {
+                this.CustomerType = CustomerType.OneTime;
+            }
+
+            if (paymetsCount >= 2)
+            {
+                this.CustomerType = CustomerType.Regular;
+            }
+
+            if (paymetsCount >= 5)
+            {
+                this.CustomerType = CustomerType.Golden;
+            }
+
+            if (paymetsCount >= 8)
+            {
+                this.CustomerType = CustomerType.Diamond;
+            }
+        }
+        
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+            {
+                return false;
+            }
+
+            if (obj.GetType() != this.GetType())
+            {
+                return false;
+            }
+        
+            return this.Equals((Customer)obj);
+        }
+        
+        public override int GetHashCode()
+        {
+            unchecked
+            {
+                return this.Id.GetHashCode();
+            }
+        }
+        
+        public object Clone()
+        {
+            var cloning = new Customer(this.FirstName, this.MidleName, this.LastName, this.Id, this.PermanentAddress, this.Email, this.MobilePhone);
+        
+            cloning.Payments = new List<Payment>();
+            foreach (var payment in this.Payments)
+            {
+                cloning.Payments.Add(new Payment(payment.ProductName, payment.Price));
+            }
+
+            cloning.CustomerType = this.CustomerType;
+            
+            return cloning;
+        }
+        
+        public int CompareTo(Customer other)
+        {
+            string fullNameThisCustomer = this.ToString();
+            string fullNameOtherCustomer = other.ToString();
+            if (fullNameThisCustomer.CompareTo(fullNameOtherCustomer) == 0)
+            {
+                return this.Id.CompareTo(other.Id);
+            }
+        
+            return fullNameThisCustomer.CompareTo(fullNameOtherCustomer);
+        }
+
+        protected bool Equals(Customer other)
+        {
+            return string.Equals(this.FirstName, other.FirstName) && string.Equals(this.MidleName, other.MidleName) && string.Equals(this.LastName, other.LastName) && (this.Id == other.Id);
+        }
+    }
+}

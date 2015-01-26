@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-ColorKitchen", "02-ColorKitchen\02-ColorKitchen.csproj", "{7ECF62CA-A902-450B-A7EA-1D0C691B584D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-WorldCupBrazil", "01-WorldCupBrazil\01-WorldCupBrazil.csproj", "{BEC4D1E0-F187-4D40-8BE1-A31D13F1FD02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ECF62CA-A902-450B-A7EA-1D0C691B584D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECF62CA-A902-450B-A7EA-1D0C691B584D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECF62CA-A902-450B-A7EA-1D0C691B584D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECF62CA-A902-450B-A7EA-1D0C691B584D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC4D1E0-F187-4D40-8BE1-A31D13F1FD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC4D1E0-F187-4D40-8BE1-A31D13F1FD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC4D1E0-F187-4D40-8BE1-A31D13F1FD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC4D1E0-F187-4D40-8BE1-A31D13F1FD02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

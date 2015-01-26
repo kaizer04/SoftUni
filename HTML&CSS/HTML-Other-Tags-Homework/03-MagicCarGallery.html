@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Magic Car Gallery</title>
+        <style>
+            * {
+				font-family: 'Tahoma', sans-serif;
+			}
+            
+            section {
+				background-color: #000; 
+				float: left; 
+				border-radius: 15px; 
+				padding: 0 30px 40px;
+			}
+            
+			h1 {
+				font-size: 40px; 
+				color: #f2c206; 
+				width: 100%; 
+				text-align: center;
+			}
+            
+			iframe {
+				border: 2px solid #f2c206; 
+				float: left;
+				width: 290px; 
+				height: 215px; 
+			}
+            
+			ul {
+				float: left;
+			}
+			
+			ul a {
+				color: #fff; 
+				text-decoration: none; 
+				font-size: 30px; 
+				font-style: italic;
+			}
+			
+			li {
+				margin-top: 10px;
+			}
+			li:first-child, ul {
+				margin-top: 0;
+			}
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1>Magic Car Gallery</h1>
+            <iframe frameborder="0" name="cars" src="img/ford-mustang.png" scrolling="no"></iframe>
+				<ul>
+					<li><a href="img/ford-mustang.png" target="cars">Ford Mustang</a></li>
+					<li><a href="img/bmw.png" target="cars">BMW M5</a></li>
+					<li><a href="img/porsche.png" target="cars">Porsche Panamera</a></li>
+					<li><a href="img/audi.png" target="cars">Audi RS5</a></li>
+					<li><a href="img/mercedes.png" target="cars">Mercedes-Benz C63 AMG</a></li>
+				</ul>
+        </section>
+    </body>
+</html>

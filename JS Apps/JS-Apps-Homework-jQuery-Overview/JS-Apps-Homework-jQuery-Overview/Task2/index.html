@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Write a script using jQuery for switching the background color of elements with a specified class. The input should be read from an input form.-->
+    <title>Task 2</title>
+
+    <script src="../libs/jquery-2.1.1.min.js"></script>
+
+</head>
+<body>
+    <div>
+        <label for="class">Class:</label>
+        <input type="text" id="class" />
+        <br />
+        <label for="colorPicker">Change color:</label>
+        <input type="color" id="colorPicker" onchange="onChangeBackgroundColor()" />
+        <br />
+    </div>
+    <ul>
+        <li class="bird">Hummingbird</li>
+        <li class="bird">Nightingale</li>
+        <li>Lizard</li>
+        <li class="bird">Eagle</li>
+        <li class="bird">Sparrow</li>
+    </ul>
+    
+    <script src="task2.js"></script>
+</body>
+</html>

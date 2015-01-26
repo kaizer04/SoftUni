@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Kent's Media Profile</title>
+        <style>
+			h1 {
+				padding-top: 20px;
+				text-align: center;
+			}
+            
+			h3 {
+				font-weight: normal;
+			}
+			
+			.wrapper {
+				width: 1030px; 
+				height: 370px;
+				border-radius: 10px;
+				background-color: #ffc0cb; 
+				font-family: 'Tahoma', sans-serif;
+			}
+			
+			figure, h3 {
+				margin: 0;
+			}
+            
+			.item {
+				float: left; 
+				margin-left: 10px;
+			}
+            
+			.audio {
+				width: 302px;
+			}
+            
+			embed { 
+				width: 302px; 
+				height: 150px;
+			}
+			
+			img {
+				width: 220px;
+				height: 200px;
+			}
+
+            .profile-status span {
+				font-size: 20px;
+			}
+            
+			.profile-status meter {
+				width: 200px; 
+				height: 24px; 
+				display: block;
+			}
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Profile</h1>
+            <div class="item">
+                <h3>User: Kent</h3>
+                <figure>
+                    <img src="img/kent-avatar.jpg" alt="Kent avatar"/>
+                    <figcaption>
+                        <div class="profile-status">
+                            <span>Profile completed 60%</span>
+                            <meter value="0.6"></meter>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="item audio">
+                <h3>Uploaded Audio Files</h3>
+                <embed src="http://wmedia.cameroon-info.net/CINPodCast/AuDio237/Micheal_Jackson___Human_Nature.mp3" type="audio/mpeg"/>
+                <audio controls>
+                    <source src="http://lespayous.free.fr/all/filou/music/michael%20jackson%20-%20micheal%20jackson%20-%20billie%20jean.mp3" type="audio/mpeg">
+                    Your browser does not support the &lt;audio&gt; tag.
+                </audio>
+                <audio controls>
+                    <source src="http://files.zipsites.ru/audio/music/Top%201000%20Of%20The%20Last%2030%20Years/0670%20-%20Michael%20Jackson%20-%20Dirty%20Diana.mp3" type="audio/mpeg">
+                    Your browser does not support the &lt;audio&gt; tag.
+                </audio>
+                <audio controls>
+                    <source src="http://a.tumblr.com/QrOi06UEhjepcid1bPyMroXoo1.mp3" type="audio/mpeg">
+                    Your browser does not support the &lt;audio&gt; tag.
+                </audio>
+            </div>
+            <div class="item">
+                <h3>Uploaded Video Files</h3>
+                <video width="460" height="245" controls>
+                    <source src="http://cronaldo.eu/upload/2-video.mp4" type="video/mp4">
+                    <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                    Your browser does not support the &lt;video&gt; tag.
+                </video>
+            </div>
+        </div>
+    </body>
+</html>

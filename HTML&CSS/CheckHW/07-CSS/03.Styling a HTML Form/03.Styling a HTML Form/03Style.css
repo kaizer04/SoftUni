@@ -1,0 +1,119 @@
+﻿body {
+    font-family:Tahoma;
+    padding:0;
+    margin:0;
+}
+body section {
+    width:400px;
+    padding:10px 20px;
+    margin:30px auto 0px auto;
+    background:url(images/formBackground.jpg) 0 0;
+    border-radius:5px;
+}
+span {
+    font-size:15px;
+    text-align:left;
+    color:white;
+    font-weight:bold;
+    line-height:40px;
+}
+div {
+    min-height:40px;
+    color:black;
+    font-size:12px;
+    border:solid 1px white;
+    background:rgba(255,255,255,0.4);
+    border-radius:5px;
+    margin-bottom:3px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width:220px;
+    height:20px;
+    border-radius:5px;
+    margin-right:60px;
+    margin-top:6px;
+    padding-left:5px;
+    float:right;
+}
+textarea {
+    width:220px;
+    max-width:220px;
+    min-width:220px;
+    border-radius:5px;
+    margin-right:60px;
+    margin-top:7px;
+    padding-left:5px;
+    overflow:auto;
+}
+.area {
+    min-height:100px;
+}
+label span {
+    margin-left:10px;
+    font-size:12px;
+    color:inherit;
+    font-weight:normal;
+    line-height:36px;
+}
+#radio {
+    margin-left:10px;
+    font-size:12px;
+    color:black;
+    font-weight:normal;
+}
+input[type="radio"] {
+    width:12px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+#cards {
+    height:70px;
+}
+#labelarea {
+    margin-right: 52px;
+    vertical-align: top;
+    line-height: 34px;
+    margin-left: 10px;
+}
+#visalogo::before {
+    content:url(images/visa.png);
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-right: 5px;
+}
+#amexlogo::before {
+    content:url(images/amex.png);
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-right: 5px;
+}
+#mastercardlogo::before {
+    content:url(images/mastercard.png);
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-right: 5px;
+}
+.label {
+    margin-left:10px;
+}
+input[type="radio"]:hover,
+.label:hover {
+    cursor:pointer;
+}
+button {
+    width:100px;
+    height:30px;
+    color:white;
+    border-radius:15px;
+    background-color:#001831;
+    border:none;
+    outline:none;
+    margin:11px 0px 15px 150px;
+    cursor:pointer;
+}
+button:hover {
+    background-color:#CA5100;
+}

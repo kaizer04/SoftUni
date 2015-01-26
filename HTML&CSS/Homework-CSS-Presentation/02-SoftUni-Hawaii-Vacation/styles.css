@@ -1,0 +1,63 @@
+﻿html, body, div, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.main_container {
+    width: 900px; 
+    height: 600px; 
+    position: relative;
+    background: url(resources/HawaiiBackground.png),
+                radial-gradient(at 20% 20%, #fff, #f8f5b9 8%, #d0e3f5 13%, #3669b3 50%);
+}
+
+@font-face {
+    font-family: Animated; 
+    src: url(resources/Animated.ttf);
+}
+
+h1 {
+    color: #fbbb20; 
+    float: right; 
+    font-family: Animated; 
+    font-size: 50px; 
+    margin: 10px;
+}
+
+.hula {
+    width: 350px; 
+    height: 400px; 
+    position: absolute;
+}
+.vladog {
+    background: url(resources/VladoGHula.png) center no-repeat; 
+    bottom: 0; 
+    left: 0;
+}
+.petia {
+    background: url(resources/PetiaHula.png) center no-repeat; 
+    bottom: 20px; 
+    left: 125px;
+}
+.tedi {
+    background: url(resources/TediHula.png) center no-repeat; 
+    bottom: -70px; 
+    left: 165px;
+}
+.nakov {
+    background: url(resources/NakovHula.png) center no-repeat; 
+    bottom: 50px; 
+    left: 345px;
+}
+.alex {
+    background: url(resources/AlexHula.png) center no-repeat; 
+    bottom: 15px; 
+    right: 115px; 
+    z-index: 2;
+}
+.vladok {
+    background: url(resources/VladoKHula.png) center no-repeat; 
+    bottom: 0; 
+    right: -55px; 
+    z-index: 1;
+}

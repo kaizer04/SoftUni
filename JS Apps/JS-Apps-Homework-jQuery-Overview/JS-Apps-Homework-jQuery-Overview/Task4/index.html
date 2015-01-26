@@ -1,0 +1,60 @@
+﻿﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Taks 4</title>
+    <script src="../libs/jquery-2.1.1.min.js"></script>
+    
+    <script src="task4.js"></script>
+    <style>
+        #container {
+            display: inline-block;
+            height: 200px;
+            width: 300px;
+        }
+
+            #container li {
+                display: none;
+            }
+
+            #container .current {
+                display: inline-block;
+            }
+
+            #container div {
+                margin: 0, auto;
+                text-align: center;
+                font-family: Calibri, sans-serif;
+            }
+
+        /*img {
+            height: 200;
+            width: 300;
+        }*/
+
+        button {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    
+    <ul id="container">
+        <li>
+            <div>Slide 1</div>
+            <img src="#" alt="Image 01" />
+        </li>
+        <li>
+            <div>Slide 2</div>
+            <img src="#" alt="Image 02" />
+        </li>
+        <li>
+            <div>Slide 3</div>
+            <img src="#" alt="Image 03" />
+        </li>
+    </ul>
+    <br />
+    <button id="previous">Prevous</button>
+    <button id="slideShow">Toggle Slide Show</button>
+    <button id="next">Next</button>
+</body>
+</html>

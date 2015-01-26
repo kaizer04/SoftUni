@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Programmer Calculator</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="05Style.css" />
+</head>
+<body>
+    <div id="container">
+        <div id="lefttop">
+            Calculator
+        </div>
+        <div id="righttop">
+            <div id="minimize"></div>
+            <div id="maximize"></div>
+            <div id="close"></div>
+        </div>
+        <div id="menus">
+            <ul>
+                <li>View</li>
+                <li>Edit</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div id="container-in">
+            <div id="text-field">0</div>
+            <table id="table1">
+                <tbody>
+                    <tr>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                    </tr>
+                    <tr>
+                        <td>63</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>47</td>
+                        <td></td>
+                        <td></td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                    </tr>
+                    <tr>
+                        <td>31</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>15</td>
+                        <td></td>
+                        <td></td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="table2">
+                <tbody>
+                    <tr>
+                        <td id="radio1" rowspan="3">
+                            <input type="radio" id="hex" name="radio1" value="hex" /><label for="hex">Hex</label>
+                            <input type="radio" id="dec" name="radio1" value="dec" checked /><label for="dec">Dec</label>
+                            <input type="radio" id="oct" name="radio1" value="oct" /><label for="oct">Oct</label>
+                            <input type="radio" id="bin" name="radio1" value="bin" /><label for="bin">Bin</label>
+                        </td>
+                        <td></td>
+                        <td class="gradient smallersize">Mod</td>
+                        <td class="biggersize">A</td>
+                        <td class="smallersize">MC</td>
+                        <td class="smallersize">MR</td>
+                        <td class="smallersize">MS</td>
+                        <td class="smallersize">M+</td>
+                        <td class="smallersize">M-</td>
+                    </tr>
+                    <tr>
+                        <td class="gradient smallersize">&#40;</td>
+                        <td class="gradient smallersize">&#41;</td>
+                        <td class="biggersize">B</td>
+                        <td class="gradient biggest">&#8592;</td>
+                        <td class="gradient smallersize">CE</td>
+                        <td class="gradient smallersize">C</td>
+                        <td class="gradient smallersize">&#177;</td>
+                        <td class="smallersize">&#8730;</td>
+                    </tr>
+                    <tr>
+                        <td class="gradient smallersize">RoL</td>
+                        <td class="gradient smallersize">RoR</td>
+                        <td class="biggersize">C</td>
+                        <td class="numbers biggersize">7</td>
+                        <td class="numbers biggersize">8</td>
+                        <td class="numbers biggersize">9</td>
+                        <td class="gradient">/</td>
+                        <td class="smallersize">&#37;</td>
+                    </tr>
+                    <tr>
+                        <td id="radio2" rowspan="3">
+                            <input type="radio" id="qword" name="radio2" value="qword" checked /><label for="qword">Qword</label>
+                            <input type="radio" id="dword" name="radio2" value="dword" /><label for="dword">Dword</label>
+                            <input type="radio" id="word" name="radio2" value="word" /><label for="word">Word</label>
+                            <input type="radio" id="bite" name="radio2" value="bite" /><label for="bite">Bite</label>
+                        </td>
+                        <td class="gradient smallersize">Or</td>
+                        <td class="gradient smallersize">Xor</td>
+                        <td class="biggersize">D</td>
+                        <td class="numbers biggersize">4</td>
+                        <td class="numbers biggersize">5</td>
+                        <td class="numbers biggersize">6</td>
+                        <td class="gradient smallersize">&#42;</td>
+                        <td class="smallersize">1/x</td>
+                    </tr>
+                    <tr>
+                        <td class="gradient smallersize">Lsh</td>
+                        <td class="gradient smallersize">Rsh</td>
+                        <td class="biggersize">E</td>
+                        <td class="numbers biggersize">1</td>
+                        <td class="numbers biggersize">2</td>
+                        <td class="numbers biggersize">3</td>
+                        <td class="gradient smallersize">&#8722;</td>
+                        <td rowspan="2" class="gradient biggest">&#61;</td>
+                    </tr>
+                    <tr>
+                        <td class="gradient smallersize">Not</td>
+                        <td class="gradient smallersize">And</td>
+                        <td class="biggersize">F</td>
+                        <td colspan="2" class="numbers biggersize">0</td>
+                        <td class="smallersize">&#46;</td>
+                        <td class ="gradient smallersize">&#43;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

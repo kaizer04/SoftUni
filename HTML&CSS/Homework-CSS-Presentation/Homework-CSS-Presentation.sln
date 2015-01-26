@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-The-Jaunty-Text-Field", "The-Jaunty-Text-Field\01-The-Jaunty-Text-Field.csproj", "{C7D75C6D-DBC1-4162-A09D-2C0C7FB88924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-SoftUni-Hawaii-Vacation", "02-SoftUni-Hawaii-Vacation\02-SoftUni-Hawaii-Vacation.csproj", "{5EB5B037-95D7-4867-A3F9-DEB04A23EB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-StylingHTMLForm", "03-StylingHTMLForm\03-StylingHTMLForm.csproj", "{971623EC-BA57-46D5-820F-C1897B5CCB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Nested-div-Elements", "04-Nested-div-Elements\04-Nested-div-Elements.csproj", "{538D1CC6-1C17-4552-8E69-7B5FD421481F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Programmer-Calculator", "05-Programmer-Calculator\05-Programmer-Calculator.csproj", "{AEA91A5B-9486-4BA3-9FF2-59E10541E983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7D75C6D-DBC1-4162-A09D-2C0C7FB88924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D75C6D-DBC1-4162-A09D-2C0C7FB88924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D75C6D-DBC1-4162-A09D-2C0C7FB88924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D75C6D-DBC1-4162-A09D-2C0C7FB88924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB5B037-95D7-4867-A3F9-DEB04A23EB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB5B037-95D7-4867-A3F9-DEB04A23EB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB5B037-95D7-4867-A3F9-DEB04A23EB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB5B037-95D7-4867-A3F9-DEB04A23EB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971623EC-BA57-46D5-820F-C1897B5CCB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971623EC-BA57-46D5-820F-C1897B5CCB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971623EC-BA57-46D5-820F-C1897B5CCB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971623EC-BA57-46D5-820F-C1897B5CCB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538D1CC6-1C17-4552-8E69-7B5FD421481F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538D1CC6-1C17-4552-8E69-7B5FD421481F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538D1CC6-1C17-4552-8E69-7B5FD421481F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538D1CC6-1C17-4552-8E69-7B5FD421481F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA91A5B-9486-4BA3-9FF2-59E10541E983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA91A5B-9486-4BA3-9FF2-59E10541E983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA91A5B-9486-4BA3-9FF2-59E10541E983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA91A5B-9486-4BA3-9FF2-59E10541E983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

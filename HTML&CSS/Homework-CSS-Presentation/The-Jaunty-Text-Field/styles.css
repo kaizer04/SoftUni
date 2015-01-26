@@ -1,0 +1,89 @@
+﻿html, body, h1, div, p, button {
+    margin: 0; padding: 0;
+}
+
+.main_container {
+    width: 545px; 
+    height: 210px; 
+    margin-top: 5px;
+    margin-left: 10px; 
+    text-align: center; 
+    font-family: 'Tahoma', sans-serif; 
+    position: relative;
+    border-top: 5px dotted #f6eb14;
+    border-right: 12px solid #0e8140;
+    border-bottom: 7px double #0000FF;
+    border-left: 5px dashed #ed1e24;
+    box-shadow: 15px 15px 5px #3f4040;
+}
+.main_container h1 {
+    text-transform: uppercase; 
+    font-weight: normal; 
+    font-size: 40px; 
+    text-shadow: 10px 10px 10px #979797; 
+    margin: 10px 0 10px;
+}
+.inner, .inner div {
+    border-radius: 50px;
+}
+.inner {
+    width: 485px; 
+    display: inline-block; 
+    padding: 10px 0 15px; 
+    margin-top: 23px; 
+    box-shadow:
+            0 0 0 2px #ed2024,
+            0 0 0 4px #f6ec1f,
+            0 0 0 6px #379b46,
+            0 0 0 8px #3b50a2;
+}
+
+.inner p {
+    margin-top: 3px;
+    margin-bottom: 17px;
+    text-shadow: 10px 10px 10px #979797; 
+    font-size: 18px;
+}
+
+.button {
+    /*height: 15px;*/ 
+    
+    background-color: #DE971B; 
+    padding: 0 12px; 
+    border: 2px outset #FFB31F; 
+    /*cursor: pointer;*/
+    font-size: 15px;
+}
+
+.abs {
+    position: absolute; 
+    background-color: rgba(169,170,170,0.6); 
+    border: 3px dashed #fff; 
+    box-shadow: 0px 0px 3px 5px rgba(172,172,172,0.6);
+}
+.small {
+    width: 13px; 
+    height: 13px; 
+    border-radius: 13px; 
+    bottom: 65px; 
+    right: 100px;
+}
+.medium {
+    width: 23px; 
+    height: 23px; 
+    border-radius: 23px; 
+    bottom: 95px; 
+    right: 50px;
+}
+.large {
+    width: 102px; 
+    height: 55px; 
+    border-radius: 53px; 
+    bottom: 120px; 
+    right: -75px;
+}
+.large p {
+    color: #fff; 
+    font-weight: bold; 
+    padding-top: 5px;
+}

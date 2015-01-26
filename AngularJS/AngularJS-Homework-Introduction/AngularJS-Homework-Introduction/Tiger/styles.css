@@ -1,0 +1,29 @@
+﻿body {
+    font-family: Arial;
+}
+
+.wrapClass div {
+    padding-bottom: 20px;
+    color: black;
+}
+
+.wrapClass h1{
+    padding-top: 30px;
+    padding-left: 100px;
+    color: black;
+    font-weight: bold;
+}
+
+.wrapClass span {
+    padding-left: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.wrapClass img{
+    padding-top: 30px;
+    width: 250px;
+    height: 200px;
+    float: right;
+    margin-right: 40px;
+}

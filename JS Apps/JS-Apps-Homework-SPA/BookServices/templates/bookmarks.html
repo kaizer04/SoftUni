@@ -1,0 +1,17 @@
+﻿<div id="bookmarks">
+    <ul>
+        {{#results}}
+        <li data-id="{{objectId}}">
+            <b>{{title}}</b> by {{author}}; ISBN: {{isbn}}
+            <button class="edit-bookmark-btn">Edit</button>
+            <button class="delete-bookmark-btn">Delete</button>
+        </li>
+        {{/results}}
+    </ul>
+    <div id="create-bookmark-form">
+        <input type="text" id="title" placeholder="Title" />
+        <input type="text" id="author" placeholder="Author" />
+        <input type="text" id="isbn" placeholder="ISBN" />
+        <button id="create-bookmark">Create book</button>
+    </div>
+</div>

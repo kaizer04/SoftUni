@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Phonebook</title>
+	<link rel="stylesheet" href="styles.css">
+    <script src="libs/jquery-2.1.1.js"></script>
+    <script src="libs/jquery.noty.packaged.min.js"></script>
+    <script src="scripts/ajaxRequester.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/userSession.js"></script>
+</head>
+
+<body>
+    <header id="header">Phonebook<span></span></header>
+    <!-- Left sidebar menu -->
+    <ul id="menu">
+        <li><a href="#" id="menuUserHomeView" class="link">Home</a></li>
+        <li><a href="#" id="phonebook" class="link">Phonebook</a></li>
+        <li><a href="#" id="menuAddPhoneButton" class="link">Add Phone</a></li>
+        <li><a href="#" class="link">Edit Profile</a></li>
+        <li><a href="#" id="btnLogout" class="link">Logout</a></li>
+    </ul>
+
+    <!-- Main screen placeholder -->
+    <main id="wrapper">
+        <!-- Welcome screen -->
+        <div id="welcomeHomeView" class="dialog-box">
+            <h1>Welcome</h1>
+            <a href="#" id="btnShowLoginView" class="button">Login</a>
+            <a href="#" id="btnShowRegisterView" class="button">Register</a>
+        </div>
+        <br />
+        <!-- Registration screen -->
+        <div id="register-form" class="dialog-box">
+            <h1>Register</h1>
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" id="txtRegisterUsername" />
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="txtRegisterPassword" />
+            </p>
+            <p>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="txtRegisterFullName" />
+            </p>
+            <p class="buttons">
+                <a href="#" id="btnRegister" class="button">Register</a>
+                <a href="#" id="btnRegisterLogin" class="link">Login</a>
+            </p>
+        </div>
+        <!-- Login screen -->
+        <div id="login-form" class="dialog-box">
+            <h1>Login</h1>
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" id="txtLoginUsername" />
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="txtLoginPassword" />
+            </p>
+            <p class="buttons">
+                <a href="#" id="btnLoginLogin" class="button">Login</a>
+                <a href="#" id="btnLoginRegister" class="link">Register</a>
+            <p>
+        </div>
+        <br />
+        <!-- User home screen -->
+        <div id="userHomeView" class="dialog-box">
+            <h1 id="welcomeUser">Welcome, <span></span></h1>
+            <p>Please use the navigation menu on the left.</p>
+        </div>
+        <br />
+    <!-- Phonebook screen -->
+        <table id="phones">
+        </table>
+        <p id ="showAddPhoneButton"><a href="#" id="viewAddPhoneButton" class="button">Add Phone</a></p>
+        <br />
+    <!-- Add phone screen -->
+        <div id="add-phone-form" class="dialog-box">
+            <h1>Add Phone</h1>
+            <p>
+                <label for="personName">Name:</label>
+                <input type="text" id="personName">
+            </p>
+            <p>
+                <label for="phoneNumber">Number:</label>
+                <input type="text" id="phoneNumber">
+            </p>
+            <p class="buttons">
+                <a href="#" id="addPhoneButton" class="button">Add</a>
+                <a href="#" id="cancleAddPhoneButton" class="button">Cancel</a>
+            </p>
+        </div>
+        <br />
+</main>
+    <footer id="footer">&copy; 2014 by Software University Foundation, No Rights Reserved</footer>
+</body>
+</html>

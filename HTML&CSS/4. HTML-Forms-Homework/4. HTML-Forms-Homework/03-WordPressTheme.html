@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>WordPress Theme</title>
+    <style>
+        div#container {
+            font-size: 14px;
+            font-family: 'Tahoma', sans-serif;
+
+        }
+            div#container img:last-child {
+                margin-left: 0;
+            }
+
+        .upload {
+            margin: 20px 0;
+        }
+
+        label {
+            float: left;
+            margin: 3px 8px 0 0;
+        }
+
+        input[name="search"] {
+            float: left;
+            margin: 3px 5px 0 0;
+        }
+
+        button {
+            background: url(img/wp-icon.jpg) no-repeat;
+            width: 25px;
+            height: 25px;
+            border: 0 none;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="img/wp-logo.jpg" width="300"/>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div class="upload">
+                <label for="upload">Upload a theme</label>
+                <input type="file" name="file" id="upload" />
+            </div>
+
+            <div>
+                <label for="search">Or search in wordpress</label>
+                <input type="search" name="search" id="search" />
+                <button></button>
+            </div>
+        </form>
+        
+    </div>
+</body>
+</html>

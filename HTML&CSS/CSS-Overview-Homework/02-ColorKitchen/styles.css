@@ -1,0 +1,121 @@
+﻿body, header, aside, nav, li, ul, section, article, div, footer, a {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(colorful_dots_on_black.jpg) repeat; 
+	font-family: Arial;
+	font-size: 20px;
+	width: 1580px;
+}
+	body > header {
+		width: 100%; 
+		color: #ffff00; 
+		height: 100px; 
+		text-align: center; 
+		font-size: 3em; 
+		font-weight: bold;
+        font-family: Tahoma;
+        background: linear-gradient(
+	        to right,
+	        red,
+	        red 33.33%,
+	        green 33.33%,
+	        green 66.66%,
+	        blue 66.66%);
+	}
+
+aside, article {
+    background: #E6E6E6;
+    opacity: 0.9;
+    border-radius: 30px;
+    /*border: 1px solid black;*/
+    
+}
+
+aside {
+    width: 297px;
+    height: 300px;
+    //float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+    
+    padding-top: 22px;
+    padding-left: 20px; 
+    position: absolute;
+}
+    aside nav header {
+        font-size: 1.5em;
+        text-decoration: underline;
+    }
+
+
+
+ul {
+    list-style-image: url(ulcheck.png);
+    margin-left: 30px;
+    margin-top: 10px;
+}
+li {
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 17px;
+    
+}
+li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    font-family: Calibri;
+}
+li a:visited {color: #808080;}
+
+aside ul li:nth-child(1):hover {background-color: #f00;}
+aside ul li:nth-child(2):hover {background-color: #ffbc00;}
+aside ul li:nth-child(3):hover {background-color: #ff0;}
+aside ul li:nth-child(4):hover {background-color: #0f0;}
+aside ul li:nth-child(5):hover {background-color: #00f;}
+aside ul li:nth-child(6):hover {background-color: #370037;}
+
+section {
+    margin-top: 28px;
+}
+
+article {
+    //display: block;
+    float: right;
+    width: 1125px;
+    margin: 10px 41px 0 0;
+    padding: 20px;
+}
+
+    article header {
+        height: 50px;
+        padding: 20px 10px 5px 15px;
+        border-radius: 10px;
+        font-size: 1.77em;
+    }
+
+header#webColors {background-color: #f00; color: #fff;}
+header#webSafeColors {background-color: #ffbc00; color: #000;}
+header#RGB {background-color: #ff0; color: #000;}
+header#RGBA {background-color: #0f0; color: #fff;}
+header#HSLHSV {background-color: #00f; color: #fff;}
+header#lorem {background-color: #370037; color: #fff;}
+
+article div {
+    margin-top: 15px;
+}
+    article div:first-letter {
+        font-size: 4em;
+       
+    }
+    article div:first-line {font-style: italic;}
+    
+    article span[lang="la"] {color: #0303b4; font-style: italic;}
+
+article footer a {
+    font-style: italic;
+    color: #808080; 
+}

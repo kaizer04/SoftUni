@@ -1,0 +1,159 @@
+﻿body, div, table, td, th, thead, tbody, input, tr, span, button {
+    margin: 0; padding: 0;
+}
+
+div#content {
+    background-color: #019247; 
+    font-family: 'Tahoma', sans-serif;
+    width: 896px;
+    height: 308px;
+    padding: 12px 0 12px 13px;
+}
+
+table {
+    border: 1px solid #000; 
+    border-radius: 20px; 
+    
+}
+
+td {
+    height: 35px; 
+    border: 1px solid #000; 
+    padding: 5px 5px;
+}
+
+tbody tr td {
+    height: 39px; 
+}
+
+thead td {
+    background-color: #f8c816; 
+    font-weight: bold; 
+    font-size: 22px;
+    
+}
+
+    thead td:nth-of-type(1){
+        padding-left: 55px;
+        padding-right: 7px;
+    }
+    thead td:nth-of-type(2){
+        padding-left: 7px;
+        padding-right: 8px;
+    }
+    thead td:nth-of-type(3){
+        padding-left: 7px;
+        padding-right: 55px;
+    }
+    thead td:nth-of-type(4){
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+td:nth-of-type(1), tbody td:nth-of-type(5) {
+    text-align: right;
+}
+td:nth-child(2), td:nth-child(4), thead td:nth-of-type(5) {
+    text-align: center;
+}
+td:nth-of-type(5), td:nth-of-type(5) {
+    width: 117px;
+}
+td:nth-of-type(6) {
+    width: 86px;
+}
+td:nth-of-type(8) {
+    width: 40px;
+}
+
+tbody input {
+    width: 27px; 
+    height: 30px; 
+    border: 1px solid #bebebe; 
+    padding-left: 5px;
+    
+}
+
+tbody td.red input {
+    background-color: #dddcdc; 
+    color: #ff0000;
+}
+
+tbody td.green input {
+    background-color: #fff; 
+    color: #007b3f;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #c7c7c7;
+}
+
+tbody span.brasil {
+    background: url(img/brasil-flag.png) no-repeat;
+}
+tbody span.mexico {
+    background: url(img/mexico-flag.png) no-repeat;
+}
+tbody span.spain {
+    background: url(img/spain-flag.png) no-repeat;
+}
+tbody span.netherlands {
+    background: url(img/netherlands-flag.png) no-repeat;
+}
+
+tbody span.italy {
+    background: url(img/italy-flag.png) no-repeat;
+}
+tbody span.england {
+    background: url(img/england-flag.png) no-repeat;
+}
+tbody span.argentina {
+    background: url(img/argentina-flag.png) no-repeat;
+}
+tbody span.bah {
+    background: url(img/bah-flag.png) no-repeat;
+}
+tbody span.germany {
+    background: url(img/germany-flag.png) no-repeat;
+}
+tbody span.portugal {
+    background: url(img/portugal-flag.png) no-repeat;
+}
+
+tbody span.home {
+    padding-right: 30px; background-position: 100% 3px;
+}
+tbody span.away {
+    padding-left: 30px; 
+    background-position: 0 3px;
+}
+
+thead td.first {
+    border-top-left-radius: 15px;
+}
+thead td.last {
+    border-top-right-radius: 15px;
+}
+tbody td.first {
+    border-bottom-left-radius: 15px;
+}
+tbody td.last {
+    border-bottom-right-radius: 15px;
+}
+
+button {
+    width: 33px; 
+    height: 33px; 
+    border: 0 none; 
+    background: url(img/buttons.png) no-repeat;       
+}
+button.red {
+    background-position: 0 100%;
+}
+button.green {
+    background-position: 0 0;
+}

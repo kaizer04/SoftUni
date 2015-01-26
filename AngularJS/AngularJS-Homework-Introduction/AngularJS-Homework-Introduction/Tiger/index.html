@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="Tiger">
+<head>
+    <meta charset="utf-8">
+    <title>Tiger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div ng-controller="Tiger" ng-style="myStyle" ng-class="wrap">
+        <img ng-src="{{image}}" />
+        <h1>TIGER</h1>
+        <div><span>Name:</span> {{name}}</div>
+        <div><span>Born:</span> {{born}}</div>
+        <div><span>Birth Date:</span> {{birthDate}}</div>
+        <div><span>Live:</span> {{live}}</div>
+    </div>
+    <script src="../lib/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/tiger.js"></script>
+</body>
+</html>
