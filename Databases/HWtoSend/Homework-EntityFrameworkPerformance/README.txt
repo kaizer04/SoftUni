@@ -1,0 +1,1 @@
+Десен бутон върху Solution и Enable Nuget Package Restore
