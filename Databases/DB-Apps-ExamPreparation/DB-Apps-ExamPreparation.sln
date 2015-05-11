@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.EF-Mappings", "EF-Mappings\1.EF-Mappings.csproj", "{1350C307-7CF8-4EC6-BF3B-EB6E107CE12F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Export-Rivers-as-JSON", "Export-Rivers-as-JSON\2.Export-Rivers-as-JSON.csproj", "{0B8DC1A2-89F5-40C3-8279-7955F1BAF9FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Export-Monasteries-as-XML", "Export-Monasteries-as-XML\3.Export-Monasteries-as-XML.csproj", "{98389493-F8BF-49C7-AE34-900A60C94C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Import-Rivers-from-XML", "Import-Rivers-from-XML\4.Import-Rivers-from-XML.csproj", "{F197311B-EA99-44D9-BCA6-DBD6AB6FD1E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Rivers-by-Country", "Rivers-by-Country\5.Rivers-by-Country.csproj", "{B500C230-D0D9-4C22-83B3-C0577DB15EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Mountains-Code-First", "Mountains-Code-First\6.Mountains-Code-First.csproj", "{93080F99-9986-4730-A2A4-017295754A1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1350C307-7CF8-4EC6-BF3B-EB6E107CE12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1350C307-7CF8-4EC6-BF3B-EB6E107CE12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1350C307-7CF8-4EC6-BF3B-EB6E107CE12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1350C307-7CF8-4EC6-BF3B-EB6E107CE12F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8DC1A2-89F5-40C3-8279-7955F1BAF9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8DC1A2-89F5-40C3-8279-7955F1BAF9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8DC1A2-89F5-40C3-8279-7955F1BAF9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8DC1A2-89F5-40C3-8279-7955F1BAF9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98389493-F8BF-49C7-AE34-900A60C94C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98389493-F8BF-49C7-AE34-900A60C94C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98389493-F8BF-49C7-AE34-900A60C94C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98389493-F8BF-49C7-AE34-900A60C94C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F197311B-EA99-44D9-BCA6-DBD6AB6FD1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F197311B-EA99-44D9-BCA6-DBD6AB6FD1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F197311B-EA99-44D9-BCA6-DBD6AB6FD1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F197311B-EA99-44D9-BCA6-DBD6AB6FD1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B500C230-D0D9-4C22-83B3-C0577DB15EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B500C230-D0D9-4C22-83B3-C0577DB15EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B500C230-D0D9-4C22-83B3-C0577DB15EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B500C230-D0D9-4C22-83B3-C0577DB15EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93080F99-9986-4730-A2A4-017295754A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93080F99-9986-4730-A2A4-017295754A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93080F99-9986-4730-A2A4-017295754A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93080F99-9986-4730-A2A4-017295754A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
