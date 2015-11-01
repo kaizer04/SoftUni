@@ -1,0 +1,26 @@
+﻿@model IEnumerable<SportSystem.Web.ViewModels.MatchViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Top Matches</h1>
+</div>
+
+<div class="row">
+    @Html.DisplayFor(x => x)
+</div>
+
+<p>
+    @Html.ActionLink("Matches", "Index", "Matches", new { }, new { @class = "btn btn-default" })
+</p>
+
+<div class="jumbotron">
+    <h1>Best Teams</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        
+    </div>
+</div>

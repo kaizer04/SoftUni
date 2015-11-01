@@ -1,2 +1,2 @@
 # SoftUni
-Homework projects from SoftUni May 2015 Season
+Homework projects from SoftUni May 2014 Season

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportSystem.Models", "SportSystem.Models\SportSystem.Models.csproj", "{05DA132E-3874-46D1-ABC5-1061EE3AAFDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportSystem.Data", "SportSystem.Data\SportSystem.Data.csproj", "{D7AA5E2D-C553-4B66-B05A-E774197C4ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportSystem.Web", "SportSystem.Web\SportSystem.Web.csproj", "{DB0BEF2A-FDA8-4DD2-9E56-8E7BC5D6C3B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportSystem.Common", "SportSystem.Common\SportSystem.Common.csproj", "{12E5D49B-5851-43F2-A2EA-4894C3554505}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libraries", "External Libraries", "{00D8BB6A-1FE2-47C0-AF77-C3ADF157B668}"
+	ProjectSection(SolutionItems) = preProject
+		External Libraries\System.Web.Mvc.Expressions.dll = External Libraries\System.Web.Mvc.Expressions.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05DA132E-3874-46D1-ABC5-1061EE3AAFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DA132E-3874-46D1-ABC5-1061EE3AAFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DA132E-3874-46D1-ABC5-1061EE3AAFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DA132E-3874-46D1-ABC5-1061EE3AAFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AA5E2D-C553-4B66-B05A-E774197C4ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AA5E2D-C553-4B66-B05A-E774197C4ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AA5E2D-C553-4B66-B05A-E774197C4ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AA5E2D-C553-4B66-B05A-E774197C4ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0BEF2A-FDA8-4DD2-9E56-8E7BC5D6C3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0BEF2A-FDA8-4DD2-9E56-8E7BC5D6C3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0BEF2A-FDA8-4DD2-9E56-8E7BC5D6C3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0BEF2A-FDA8-4DD2-9E56-8E7BC5D6C3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E5D49B-5851-43F2-A2EA-4894C3554505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E5D49B-5851-43F2-A2EA-4894C3554505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E5D49B-5851-43F2-A2EA-4894C3554505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E5D49B-5851-43F2-A2EA-4894C3554505}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
