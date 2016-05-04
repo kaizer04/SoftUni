@@ -1,0 +1,84 @@
+header {
+    font-size: 3rem;
+    text-align: center;
+    color: #3E3F3A;
+}
+
+.header, .header:hover {
+    color: #3E3F3A;
+    text-decoration: none;
+}
+
+form .form-group label.control-label {
+    text-align: left;
+}
+
+.center {
+    text-align:  center;
+}
+
+.error {
+    background: red;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.categories-box {
+    height: 25rem;
+    overflow-y: scroll;
+}
+
+textarea {
+    resize: none;
+}
+
+.categories {
+    list-style-type: none;
+}
+
+.categories li a{
+    padding: 0;
+    color: #000;
+}
+
+.problem {
+    border: solid #3E3F3A;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    margin: 5px;
+}
+
+.problem .condition {
+    background: #F8F5F0;
+    padding: 3px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.padding8 {
+    padding: 8px;
+}
+
+.problem input[type=checkbox] {
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    margin-right: 2rem;
+}
