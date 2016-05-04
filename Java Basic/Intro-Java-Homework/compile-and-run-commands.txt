@@ -1,0 +1,14 @@
+
+D:\Java\workspace\Intro-Java-Homework\src>javac SumTwoNumbers.java
+
+D:\Java\workspace\Intro-Java-Homework\src>java SumTwoNumbers
+a = 5
+b = 3
+a + b = 8
+
+D:\Java\workspace\Intro-Java-Homework\src>java SumTwoNumbers
+a = 12
+b = -7
+a + b = 5
+
+D:\Java\workspace\Intro-Java-Homework\src>
