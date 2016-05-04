@@ -1,9 +1,24 @@
 ﻿namespace LinkedIn.Web.ViewModels
 {
+    using LinkedIn.Models;
     using System;
+    using System.Linq.Expressions;
 
     public class CertificationViewModel
     {
+        public static Expression<Func<Certification, CertificationViewModel>> ViewModel
+        {
+            get
+            {
+                return x => new CertificationViewModel 
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Url = x.Url
+                };
+            }
+        }
+
         public int Id { get; set; }
 
         public string Name { get; set; }
